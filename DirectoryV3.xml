@@ -13,7 +13,15 @@
      <tree path="/src/lagou/task21" title="设计模式"/>
     <tree path="/src/lagou/task21/Proxy" title="代理模式"/>
     <tree path="/src/lagou/task21/template" title="模版模式"/>
-    <tree path="/src/lagou/task22" title="函数式编程"/>
+    <tree path="/src/lagou/task22" title="函数式编程 及 新特性" extension="" presentableText="" tooltipTitle="" icon=""
+          textColor="" backgroundColor=""/>
     <tree path="/src/lagou/task22/MethodReferenceTest.java" title="方法引用实现函数式接口" extension=""
           presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/java9-01-module" title="Java9 特性 模块化" extension="" presentableText="" tooltipTitle="" icon=""
+          textColor="" backgroundColor=""/>
+    <tree path="/java9-02-module" title="Java9 特性 模块化"/>
+    <tree path="/src/lagou/task22/DiamondTest.java" title="Java9 新特性 钻石操作符"/>
+    <tree path="/src/lagou/task22/InputStreamTest.java" title="Java 9 新特性 transferTo"/>
+    <tree path="/src/lagou/task22/varTest.java" title="Java10 新特性 var推断符" extension="" presentableText=""
+          tooltipTitle="" icon="" textColor="" backgroundColor=""/>
 </trees>

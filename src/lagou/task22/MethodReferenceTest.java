@@ -2,10 +2,7 @@ package lagou.task22;
 
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.function.BiFunction;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 // 方法引用实现函数式接口
 public class MethodReferenceTest {
@@ -166,5 +163,12 @@ public class MethodReferenceTest {
         // 26. 使用方法引用的方式通过Function函数式接口创建指定数量的Person类型的对象数组
         Function<Integer, Person[]> function4 = Person[]::new;
         System.out.println(Arrays.toString(function4.apply(3)));
+
+        // 27. BiPredicate练习
+        System.out.println("-------------------------------");
+        BiPredicate<Integer, Integer> biPredicate = (o1, o2) -> o1.compareTo(o2) > 0;
+        System.out.println(biPredicate.test(1, 2)); // false
+        System.out.println(biPredicate.or(biPredicate.negate()).test(1,2) ); // true
+
     }
 }
