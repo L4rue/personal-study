@@ -1,4 +1,4 @@
-package lagou;
+package lagou.old;
 
 import java.util.Scanner;
 

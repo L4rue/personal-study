@@ -1,4 +1,4 @@
-package lagou;
+package lagou.old;
 
 public class IntegerTest {
     public static void main(String[] args) {

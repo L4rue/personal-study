@@ -1,4 +1,4 @@
-package lagou;
+package lagou.old;
 
 import lagou.classes.Person;
 import lagou.classes.SubPerson;
