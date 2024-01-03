@@ -13,4 +13,7 @@
      <tree path="/src/lagou/task21" title="设计模式"/>
     <tree path="/src/lagou/task21/Proxy" title="代理模式"/>
     <tree path="/src/lagou/task21/template" title="模版模式"/>
+    <tree path="/src/lagou/task22" title="函数式编程"/>
+    <tree path="/src/lagou/task22/MethodReferenceTest.java" title="方法引用实现函数式接口" extension=""
+          presentableText="" tooltipTitle="" icon="" textColor="" backgroundColor=""/>
 </trees>
