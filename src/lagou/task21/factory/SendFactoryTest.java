@@ -7,11 +7,14 @@ public class SendFactoryTest {
         Sender sender = sendFactory.produce("mail");
         sender.send();
 
-        Sender sender3 = SendFactory.produceMail();
+        Sender sender3 = sendFactory.produceMail();
         sender3.send();
 
         Sender sender2 = sendFactory.produce("sms");
         sender2.send();
+
+        Sender sender4 = sendFactory.produceSms();
+        sender4.send();
 
         System.out.println("-----------------");
         MailSender ms = new MailSender();
