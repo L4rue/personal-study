@@ -5,7 +5,7 @@ import java.util.concurrent.*;
 public class ThreadPoolTest {
     public static void main(String[] args) {
         // 1.创建线程池
-        // Executors.newCachedThreadPool();
+        // ExecutorService es = Executors.newCachedThreadPool();
         ExecutorService es = Executors.newFixedThreadPool(5);
         // 2.下发任务
         Future obj = es.submit(new ThreadCallableTest());
