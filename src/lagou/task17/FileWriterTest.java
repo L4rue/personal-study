@@ -1,9 +1,6 @@
 package lagou.task17;
 
 import java.io.*;
-import java.time.LocalDateTime;
-import java.time.ZoneOffset;
-import java.util.Arrays;
 
 public class FileWriterTest {
     public static void main(String[] args) {
@@ -18,7 +15,7 @@ public class FileWriterTest {
 
     static void fileWrite() throws IOException {
         // 1. 打开文件
-        FileWriter fw = new FileWriter("src/lagou/task17/1.txt", true);
+        FileWriter fw = new FileWriter("src/lagou/task17/99_source.txt", true);
         // 2. 写入
         for (int i = 0; i < 100000000; i++) {
             fw.write('a');
@@ -30,13 +27,13 @@ public class FileWriterTest {
     }
 
     static void fileReader() throws IOException {
-        // FileReader fr = new FileReader("src/lagou/task17/1.txt");
+        // FileReader fr = new FileReader("src/lagou/task17/99_source.txt");
         // int res;
         // while ((res = fr.read()) != -1) {
         //     System.out.println((char) fr.read());
         // }
         // fr.close();
-        FileReader fr = new FileReader("src/lagou/task17/1.txt");
+        FileReader fr = new FileReader("src/lagou/task17/99_source.txt");
         char[] resList = new char[1024];
         int res = fr.read(resList);
         System.out.println(res);
@@ -47,9 +44,9 @@ public class FileWriterTest {
     }
 
     static void bufferCopy() throws IOException {
-        BufferedInputStream bis = new BufferedInputStream(new FileInputStream("src/lagou/task17/1.txt"));
+        BufferedInputStream bis = new BufferedInputStream(new FileInputStream("src/lagou/task17/99_source.txt"));
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("src/lagou/task17/1_out.txt"));
-        FileInputStream f1 = new FileInputStream("src/lagou/task17/1.txt");
+        FileInputStream f1 = new FileInputStream("src/lagou/task17/99_source.txt");
         byte[] resList = new byte[1024];
         int res;
         long d1 = System.currentTimeMillis();

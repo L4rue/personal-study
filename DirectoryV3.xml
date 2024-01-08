@@ -24,4 +24,7 @@
     <tree path="/src/lagou/task22/InputStreamTest.java" title="Java 9 新特性 transferTo"/>
     <tree path="/src/lagou/task22/varTest.java" title="Java10 新特性 var推断符" extension="" presentableText=""
           tooltipTitle="" icon="" textColor="" backgroundColor=""/>
+    <tree path="/src/lagou/task23" title="NIO"/>
+    <tree path="/src/lagou/task23/BufferTest.java" title="缓冲区"/>
+    <tree path="/src/lagou/task23/Channel" title="Channel通道"/>
 </trees>
