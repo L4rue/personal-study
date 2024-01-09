@@ -27,4 +27,5 @@
     <tree path="/src/lagou/task23" title="NIO"/>
     <tree path="/src/lagou/task23/BufferTest.java" title="缓冲区"/>
     <tree path="/src/lagou/task23/Channel" title="Channel通道"/>
+    <tree path="/src/lagou/task23/Selector" title="选择器"/>
 </trees>

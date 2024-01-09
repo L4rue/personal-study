@@ -86,9 +86,13 @@ public class BufferTest {
         System.out.println("position: " + byteBuffer1.position()); // 2
     }
 
-    private static void printBuffer(ByteBuffer buffer) {
+    public static void printBuffer(ByteBuffer buffer) {
         // 把缓冲区数组变成普通数组 查看数组内容
         byte[] array = buffer.array();
         System.out.println(Arrays.toString(array));
+    }
+
+    public static void printBufferString(ByteBuffer buffer) {
+        System.out.println(new String(buffer.array()));
     }
 }
