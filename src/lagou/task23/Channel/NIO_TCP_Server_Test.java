@@ -36,6 +36,10 @@ public class NIO_TCP_Server_Test {
                 // 5.打印数据
                 // System.out.println(new String(byteBuffer.array()));// hello口口口口...(空格）
                 System.out.println(new String(byteBuffer.array(), 0, len));// hello
+                TimeUnit.SECONDS.sleep(2);
+                byteBuffer.clear();
+                byteBuffer.put("me too".getBytes());
+                socketChannel.write(byteBuffer.flip());
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
